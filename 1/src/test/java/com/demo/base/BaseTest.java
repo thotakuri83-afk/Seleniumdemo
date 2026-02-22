@@ -35,7 +35,7 @@ public class BaseTest {
 	 * driver.get(baseUrl); }
 	 */
 
-    // Firefox setup (if you want to use it later)
+    // Firefox setup (if you want to use it later,better not use)
     @BeforeMethod
     public void setup() {
         WebDriverManager.firefoxdriver().setup();
